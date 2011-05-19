@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "windows.h"
+#include "os.h"
 
 
 void say_hello()

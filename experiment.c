@@ -1,17 +1,10 @@
 #include <stdio.h>
 
 #ifdef WIN32
-	#include "os\windows.h"
+	#include "os\os.h"
+#else
+	#include "os/os.h"
 #endif
-
-#ifdef __APPLE__ 
-	#include "os/macosx.h"
-#endif
-
-#ifdef linux
-	#include "os/linux.h"
-#endif
-
 
 int main(int argc, char **argv)
 {

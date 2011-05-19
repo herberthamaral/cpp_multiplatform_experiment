@@ -1,4 +1,4 @@
-#include "macosx.h"
+#include "os.h"
 
 void say_hello()
 {
